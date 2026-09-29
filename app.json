@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Navacare",
+    "slug": "navacare",
+    "version": "1.0.0",
+    "icon": "./navacare-logo.jpeg",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "com.navacare.app",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "09849351-e5cb-479e-af8c-d5607b4ab8cf"
+      }
+    },
+    "ios": {
+      "infoPlist": {
+        "NSMotionUsageDescription": "Navacare menggunakan data gerak untuk menghitung jumlah langkah."
+      }
+    },
+    "plugins": [
+      [
+        "expo-sensors",
+        {
+          "motionPermission": "Navacare menggunakan data gerak untuk menghitung jumlah langkah."
+        }
+      ]
+    ]
+  }
+}
